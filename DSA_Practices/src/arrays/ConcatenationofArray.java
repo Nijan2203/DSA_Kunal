@@ -18,7 +18,7 @@ public class ConcatenationofArray {
 		for (int i = 0; i < ans.length; i++) {
 			if (i < a.length)
 				ans[i] = a[i];
-			else {
+			if(i>=a.length){
 				ans[i] = a[j];
 				j++;
 

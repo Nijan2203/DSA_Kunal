@@ -6,6 +6,8 @@ public class Sumof1dArray {
 	public static void main(String[] args) {
 		int[] a = {1,2,3,4,5,9};
 		
+		
+		
 		int sum = sumarray(a);
 		System.out.println("Running Sum of 1d Array is "+sum);
 		
