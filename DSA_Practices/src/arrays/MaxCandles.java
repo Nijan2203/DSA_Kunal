@@ -26,7 +26,8 @@ int extraCandies = 3;
 					result.add(true);
 					
 				}
-				i++;return false;
+				i++;
+				
 			}		
 		
 		
