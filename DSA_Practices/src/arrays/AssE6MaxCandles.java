@@ -4,7 +4,8 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-public class MaxCandles {
+public class AssE6MaxCandles {
+//	 Kids With the Greatest Number of Candies
 
 	public static void main(String[] args) {
 int[] candies = {2,3,5,1,3};

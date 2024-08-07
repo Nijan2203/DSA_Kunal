@@ -2,7 +2,7 @@ package arrays;
 
 import java.util.Arrays;
 
-public class PermutationArray {
+public class AssE1PermutationArray {
 //	Build Array from Permutation
 	public static void main(String[] args) {
 		int[] a = {1,0,4,3,2,5};

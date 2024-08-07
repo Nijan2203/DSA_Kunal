@@ -1,6 +1,6 @@
 package arrays;
 
-public class WealthofCustomer {
+public class AssE4WealthofCustomer {
 //	Richest Customer Wealth
 	public static void main(String[] args) {
 		int[][] arr = {{1,2,3}, {3,2,1,8}};

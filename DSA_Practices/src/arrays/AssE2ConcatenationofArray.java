@@ -2,7 +2,7 @@ package arrays;
 
 import java.util.Arrays;
 
-public class ConcatenationofArray {
+public class AssE2ConcatenationofArray {
 //	Concatenation of Array
 	public static void main(String[] args) {
 		int[] a = { 1, 2, 1 };
