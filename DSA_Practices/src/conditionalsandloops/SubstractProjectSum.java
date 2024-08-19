@@ -18,10 +18,10 @@ int res = sub(a);
 		int temp=a;
 		int digit = 0;
 		int pro = 1,sum = 0, res,rem;
-		while(temp>0) {
-			temp = temp/10;
-			digit++;
-		}
+//		while(temp>0) {
+//			temp = temp/10;
+//			digit++;
+//		}
 		temp=a;
 		
 		while(temp>0) {
