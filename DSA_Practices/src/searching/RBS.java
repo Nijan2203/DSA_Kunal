@@ -4,7 +4,7 @@ public class RBS {
 
 	public static void main(String[] args) {
 		int[] arr = {2,3,4,5,8,9,1};
-		int target = 1;
+		int target = 9;
 		
 		int ind = search(arr, target);
 
