@@ -17,25 +17,28 @@ int extraCandies = 3;
 	
 	  static List<Boolean> kidsWithCandies(int[] candies, int extraCandies) {
 		List<Boolean> result = new ArrayList<>();
-		int max = 0;
-		int i=0;
-		for(int ele : candies) {
-			max = ele +extraCandies;
-		
-			
-				while(max>candies[i]) {
-					result.add(true);
-					
-				}
-				i++;
-				
-			}		
-		
-		
-		
-		return result ;
+		int maxvalue = findMax(candies);
+		for(int i=0; i<candies.length; i++) {
+			if(candies[i]+extraCandies>=maxvalue) {
+				result.add(true);
+			}else {
+				result.add(false);
+			}
+		}
+		return result;
 		  
 	  }
+
+	 static int findMax(int[] candies) {
+		int max = candies[0];
+		for(int i=1; i<candies.length; i++) {
+			if(max<candies[i]) {
+				max = candies[i];
+			}
+		}
+		return max;
+		
+	}
 
 	  
 	  

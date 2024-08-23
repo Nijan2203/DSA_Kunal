@@ -11,7 +11,7 @@ int[] arr = {2,3,5,9,14,16,18};
 int target = 10;
 
 int out = ceilingNum(arr, target);
-System.out.println("Ceiling of the given target "+ target +" index is "+ out);
+System.out.println("Ceiling of the given target "+ target +" index is "+ out+ " value is " + arr[out] );
 	}
 	
 	
