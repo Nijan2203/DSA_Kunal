@@ -5,40 +5,39 @@ import java.util.Arrays;
 public class SelectionSort {
 
 	public static void main(String[] args) {
-		int[] arr = {1,5,3,4,2};
+		int[] arr = {5,1,3,4,2};
 	sortSelection(arr);
 System.out.println(Arrays.toString(arr));
 	}
 
 	
 	static void sortSelection(int[] arr) {
-		int max = arr[0];
-		for(int i=0; i<arr.length; i++) {
-			
-		for(int j=i+1; j<arr.length-i; j++) {
-		 max = 	getmaxvalue(arr, i, j);
-			
-		}swap(arr,max, arr.length-i-1);
-			
-		}
+	for(int i=0; i<arr.length; i++) {
+		int last = arr.length-1-i;
+		int maxindex = findMax(arr, 0, last);
+		swap(arr, maxindex, last);
+	}
 	
 	}
 
 
-	private static void swap(int[] arr, int max, int i) {
-		int temp = arr[i];
-		arr[i] = arr[max];
-		arr[max] = temp;
-
+	  static void swap(int[] arr, int maxindex, int last) {
+		int temp = arr[maxindex];
+		arr[maxindex] = arr[last];
+		arr[last] = temp;
 		
 	}
 
 
-	private static int getmaxvalue(int[] arr, int i, int j) {
-		int max =0;
-		if(arr[i]>arr[j]) {
-			 max = arr[i];
+	static int findMax(int[] arr, int start, int end) {
+		 int max = start;
+		for(int i=start; i<=end; i++) {
+			if(arr[max] <arr[i]){
+				max = i ;
+			}
 		}
+//		System.out.println(max);
 		return max;
 	}
-}
+		
+	}
