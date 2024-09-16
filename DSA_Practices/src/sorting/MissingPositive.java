@@ -4,7 +4,7 @@ public class MissingPositive {
 	// https://leetcode.com/problems/first-missing-positive/
 
 	public static void main(String[] args) {
-		int[] nums =  {7,8,9,11,12};
+		int[] nums =  {-7,0,9,11,12};
 		int miss = MissingPostive(nums);
 System.out.println(miss);
 	}
