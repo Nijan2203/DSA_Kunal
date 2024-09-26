@@ -4,7 +4,7 @@ import java.util.LinkedHashSet;
 import java.util.Set;
 
 public class AssE10Pangram {
-//	Check if the Sentence Is Pangram
+//	Check if the Sentence Is Pangram - https://leetcode.com/problems/check-if-the-sentence-is-pangram/description/
 	public static void main(String[] args) {
 		String sentence = "thequickbrownfoxjumpsoverthelazydog";
 		boolean res = findPanGram(sentence);

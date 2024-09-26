@@ -1,7 +1,7 @@
 package sorting;
 
-public class MissingPositive {
-	// https://leetcode.com/problems/first-missing-positive/
+public class AssH1MissingPositive {
+	// First Missing Positive - https://leetcode.com/problems/first-missing-positive/
 
 	public static void main(String[] args) {
 		int[] nums =  {-7,0,9,11,12};

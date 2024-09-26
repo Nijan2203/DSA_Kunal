@@ -1,7 +1,7 @@
 package arrays;
 
 public class AssE12MaxAltitude {
-// Find the Highest Altitude
+// Find the Highest Altitude - https://leetcode.com/problems/find-the-highest-altitude/description/
 
 	public static void main(String[] args) {
 		int[] gain = { -5, 1, 5, 0, -7 };

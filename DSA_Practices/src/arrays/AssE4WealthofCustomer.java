@@ -1,7 +1,7 @@
 package arrays;
 
 public class AssE4WealthofCustomer {
-//	Richest Customer Wealth
+//	Richest Customer Wealth - https://leetcode.com/problems/richest-customer-wealth/description/
 	public static void main(String[] args) {
 		int[][] arr = {{1,2,3}, {3,2,1,8}};
 		int max = cusWealth(arr);

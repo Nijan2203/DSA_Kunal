@@ -3,7 +3,7 @@ package arrays;
 import java.util.Arrays;
 
 public class AssE1PermutationArray {
-//	Build Array from Permutation
+//	Build Array from Permutation - https://leetcode.com/problems/build-array-from-permutation/description/
 	public static void main(String[] args) {
 		int[] a = {1,0,4,3,2,5};
 		

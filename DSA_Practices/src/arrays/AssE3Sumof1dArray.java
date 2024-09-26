@@ -3,7 +3,7 @@ package arrays;
 import java.util.Arrays;
 
 public class AssE3Sumof1dArray {
-//	Running Sum of 1d Array
+//	Running Sum of 1d Array - https://leetcode.com/problems/running-sum-of-1d-array/description/
 	
 	public static void main(String[] args) {
 		int[] a = {1,2,3,4,5,9};

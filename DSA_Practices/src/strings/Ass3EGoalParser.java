@@ -3,7 +3,7 @@ package strings;
 import java.util.Arrays;
 
 public class Ass3EGoalParser {
-	
+//	Goal Parser Interpretation - https://leetcode.com/problems/goal-parser-interpretation/description/
 	public static void main(String[] args) {
 		String command = "G()(al)";
 		String out =interpret(command);

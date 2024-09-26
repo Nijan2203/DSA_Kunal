@@ -4,8 +4,8 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-public class Accs11_MatchingRule {
-//	Count Items Matching a Rule
+public class AssE11MatchingRule {
+//	Count Items Matching a Rule - https://leetcode.com/problems/count-items-matching-a-rule/description/
 	public static void main(String[] args) {
 
 		List<List<String>> items = new ArrayList();

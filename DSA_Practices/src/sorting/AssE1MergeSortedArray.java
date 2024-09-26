@@ -3,7 +3,7 @@ package sorting;
 import java.util.Arrays;
 
 public class AssE1MergeSortedArray {
-
+//	Merge Sorted Array - https://leetcode.com/problems/merge-sorted-array/description/
 	public static void main(String[] args) {
 		int[] nums1 = {1,2,3,0,0,0};
 		int m = 3;

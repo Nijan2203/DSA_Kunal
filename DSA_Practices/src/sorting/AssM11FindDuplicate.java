@@ -1,8 +1,9 @@
 package sorting;
 
-public class FindDuplicate {
+public class AssM11FindDuplicate {
 
 	public static void main(String[] args) {
+//		Find the Duplicate Number - https://leetcode.com/problems/find-the-duplicate-number/description/
 		int[] arr = {2,1,2};
 		int dup = findduplicate(arr);
 		System.out.println("Duplicate element in the array is "+ dup);

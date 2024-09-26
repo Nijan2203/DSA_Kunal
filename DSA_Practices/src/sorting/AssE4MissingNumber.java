@@ -1,7 +1,7 @@
 package sorting;
 
-public class MissingNumber {
-	// https://leetcode.com/problems/missing-number/
+public class AssE4MissingNumber {
+	//MissingNumber - https://leetcode.com/problems/missing-number/
 	// Amazon Question
 
 	public static void main(String[] args) {

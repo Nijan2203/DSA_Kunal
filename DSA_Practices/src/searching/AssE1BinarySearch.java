@@ -1,7 +1,8 @@
 package searching;
 
-public class BinarySearch {
-
+public class AssE1BinarySearch {
+//	https://leetcode.com/problems/binary-search/description/
+	
 	public static void main(String[] args) {
 int[]  arr = {-5,-4,-2,1,5,48,1581,5151,5185,9866};
 int target = 9866;

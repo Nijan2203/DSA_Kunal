@@ -5,7 +5,7 @@ import java.util.Arrays;
 import java.util.List;
 
 public class AssE6MaxCandles {
-//	 Kids With the Greatest Number of Candies
+//	 Kids With the Greatest Number of Candies - https://leetcode.com/problems/kids-with-the-greatest-number-of-candies/description/
 
 	public static void main(String[] args) {
 int[] candies = {2,3,5,1,3};

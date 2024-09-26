@@ -3,8 +3,8 @@ package sorting;
 import java.util.ArrayList;
 import java.util.List;
 
-public class FindAllDuplicate {
-	// https://leetcode.com/problems/find-all-duplicates-in-an-array/
+public class AssM12FindAllDuplicate {
+	// Find All Duplicates in an Array - https://leetcode.com/problems/find-all-duplicates-in-an-array/
 
 	public static void main(String[] args) {
 		int[] arr = {1,2,1,3,4,3};

@@ -3,7 +3,7 @@ package arrays;
 import java.util.Arrays;
 
 public class AssE21TwoSums {
-//	Two Sum
+//	Two Sum - https://leetcode.com/problems/two-sum/description/
 	public static void main(String[] args) {
 		
 		int[] nums = {3,2,3};

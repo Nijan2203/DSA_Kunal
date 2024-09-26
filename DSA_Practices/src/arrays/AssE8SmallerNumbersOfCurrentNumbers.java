@@ -4,6 +4,7 @@ import java.util.Arrays;
 
 public class AssE8SmallerNumbersOfCurrentNumbers {
 //	How Many Numbers Are Smaller Than the Current Number
+//	https://leetcode.com/problems/how-many-numbers-are-smaller-than-the-current-number/description/
 	public static void main(String[] args) {
 		int[] arr = {8,1,2,2,3};
 		int[] out  = smallerdigitcount(arr);

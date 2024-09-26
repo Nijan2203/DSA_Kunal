@@ -1,7 +1,7 @@
 package arrays;
 
 public class AssE7GoodPairs {
-//	Number of Good Pairs
+//	Number of Good Pairs - https://leetcode.com/problems/number-of-good-pairs/description/
 	public static void main(String[] args) {
 		int[] nums = {1,2,3,1,1,3}; 
 		
